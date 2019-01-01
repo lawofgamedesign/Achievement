@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour {
 		Services.Events = new CustomEventManager();
 		Services.People = new PersonManager();
 		Services.People.Setup();
-		Services.Inputs = new InputManager();
+		Services.Inputs = new GroundInputManager();
+		Services.Inputs.Setup();
 		Services.Tasks = new TaskManager();
 	}
 

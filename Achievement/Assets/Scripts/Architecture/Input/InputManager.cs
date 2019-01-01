@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 
-public class InputManager {
+public abstract class InputManager {
 
 
-	/// <summary>
-	/// Every frame, send out an event with the current position of the mouse.
-	/// </summary>
-	public void Tick(){
-		Services.Events.Fire(new MousePosEvent(Input.mousePosition));
+	public virtual void Setup(){
+		//some InputManagers need to be set up; others don't
 	}
+	
+	
+	/// <summary>
+	/// Each type of InputManager sends out a different kind of event.
+	/// </summary>
+	public abstract void Tick();
 }

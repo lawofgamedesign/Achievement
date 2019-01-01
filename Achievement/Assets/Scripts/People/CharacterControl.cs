@@ -1,9 +1,8 @@
-﻿namespace Main_Character{
+﻿namespace Main_Character {
 
 	using UnityEngine;
 
-	public class CharacterControl : PersonSandbox
-	{
+	public class CharacterControl : PersonSandbox {
 
 
 		////////////////////////////////////////////////
@@ -11,13 +10,19 @@
 		////////////////////////////////////////////////
 
 
-		//used to calculate movement
+		//used to calculate movement when following mouse on screen
 		private Vector3 screenMoveDir;
 
 		private float moveMagnitude;
 		private Vector3 totalScreenMove;
 		private float speed = 0.05f;
 		private Vector3 characterScreenPos;
+		
+		
+		//used to calcuate movement when pursuing point on ground
+		private Vector3 playerGroundLoc = new Vector3(0.0f, 0.0f, 0.0f);
+		private Vector3 groundMoveDir;
+		private Vector3 totalGroundMove;
 
 
 		//used to rotate the player
@@ -31,7 +36,8 @@
 
 		//register for input events
 		public override void Setup(){
-			Services.Events.Register<MousePosEvent>(Move);
+			//Services.Events.Register<MousePosEvent>(Move); //for moving to mouse position on screen
+			Services.Events.Register<MouseGroundEvent>(Move); //for moving to mouse position on ground
 
 			base.Setup();
 		}
@@ -45,13 +51,35 @@
 			//intentionally blank
 		}
 
+		
+		
+		/// <summary>
+		/// Move the main character so that they are hovering over a point on the ground the player is pointing at
+		/// with the mouse.
+		/// </summary>
+		/// <param name="e">A MouseGroundEvent with the point on the ground where the player is pointing.</param>
+		private void Move(CustomEvent e){
+			Debug.Assert(e.GetType() == typeof(MouseGroundEvent), "Non-MouseGroundEvent in Move()");
+			
+			MouseGroundEvent groundEvent = e as MouseGroundEvent;
+
+			playerGroundLoc.x = transform.position.x;
+			playerGroundLoc.z = transform.position.z;
+			Debug.DrawLine(transform.position, playerGroundLoc, Color.red, 3.0f);
+			
+			groundMoveDir = (groundEvent.groundPos - playerGroundLoc).normalized;
+			moveMagnitude = Vector3.Distance(groundEvent.groundPos, playerGroundLoc);
+			totalGroundMove = groundMoveDir * moveMagnitude * speed;
+			
+			rb.MovePosition(transform.position + totalGroundMove);
+		}
+
 
 		/// <summary>
 		/// Move the main character toward the cursor. The character moves faster when the cursor is farther away.
 		/// </summary>
 		/// <param name="e">A MousePosEvent with the mouse's current screen position.</param>
-		private void Move(global::Event e)
-		{
+		/*private void Move(global::Event e) {
 			Debug.Assert(e.GetType() == typeof(MousePosEvent), "Non-MousePosEvent in Move()");
 
 			MousePosEvent posEvent = e as MousePosEvent;
@@ -74,6 +102,6 @@
 
 			//move toward the cursor, translating screen values into world values
 			rb2D.MovePosition(Camera.main.ScreenToWorldPoint(characterScreenPos + totalScreenMove));
-		}
+		}*/
 	}
 }

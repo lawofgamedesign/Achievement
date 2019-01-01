@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class MousePosEvent : Event {
+public class MousePosEvent : CustomEvent {
 
 
 	////////////////////////////////////////////////

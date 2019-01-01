@@ -18,7 +18,7 @@ public class CustomEventManager {
 
 
 	//dictionary of handers to be called, indexed by the event that triggers the handlers
-	private Dictionary<Type, Event.Handler> registeredHandlers = new Dictionary<Type, Event.Handler>();
+	private Dictionary<Type, CustomEvent.Handler> registeredHandlers = new Dictionary<Type, CustomEvent.Handler>();
 
 
 	/// <summary>
@@ -26,7 +26,7 @@ public class CustomEventManager {
 	/// </summary>
 	/// <param name="handler">The function to be called when the event occurs.</param>
 	/// <typeparam name="T">The type of the event.</typeparam>
-	public void Register<T>(Event.Handler handler) where T : Event{
+	public void Register<T>(CustomEvent.Handler handler) where T : CustomEvent{
 		Type type = typeof(T);
 
 		/*
@@ -52,10 +52,10 @@ public class CustomEventManager {
 	/// </summary>
 	/// <param name="handler">The function that was called when the event occurred.</param>
 	/// <typeparam name="T">The type of the event.</typeparam>
-	public void Unregister<T>(Event.Handler handler) where T : Event{
+	public void Unregister<T>(CustomEvent.Handler handler) where T : CustomEvent{
 		Type type = typeof(T);
 
-		Event.Handler handlers;
+		CustomEvent.Handler handlers;
 
 		if (registeredHandlers.TryGetValue(type, out handlers)){
 			handlers -= handler;
@@ -73,10 +73,10 @@ public class CustomEventManager {
 	/// Objects call this to publish an event.
 	/// </summary>
 	/// <param name="e">The event to publish.</param>
-	public void Fire(Event e){
+	public void Fire(CustomEvent e){
 		Type type = e.GetType();
 
-		Event.Handler handlers;
+		CustomEvent.Handler handlers;
 
 		if (registeredHandlers.TryGetValue(type, out handlers)){
 			handlers(e);

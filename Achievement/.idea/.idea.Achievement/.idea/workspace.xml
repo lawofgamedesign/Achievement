@@ -13,60 +13,96 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="16" />
+          <entry key="cs" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="16" />
+          <entry key="C#" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3041" />
+          <entry key="cs" value="5900" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3041" />
+          <entry key="C#" value="5900" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FX/CameraShakeTask.cs">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/People/CharacterControl.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="378">
+              <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
               <folding>
-                <marker date="1546226026147" expanded="true" signature="56:438" ph="{...}" />
-                <marker date="1546226026147" expanded="true" signature="398:436" ph="{...}" />
+                <marker date="1546307569074" expanded="true" signature="24:3199" ph="{...}" />
+                <marker date="1546307569074" expanded="true" signature="94:3197" ph="{...}" />
+                <marker date="1546307569074" expanded="true" signature="897:1107" ph="{...}" />
+                <marker date="1546307569074" expanded="true" signature="1112:1217" ph="/// The main character isn't subject to moving around as bystanders are. ... " />
+                <marker date="1546307569074" expanded="true" signature="1247:1280" ph="{...}" />
+                <marker date="1546307569074" expanded="true" signature="1316:1914" ph="{...}" />
+                <marker date="1546307569074" expanded="true" signature="1919:2146" ph="/* Move the main character toward the cursor. The character moves faster when the cursor is farther away. ... */" />
+                <marker date="1546307569074" expanded="true" signature="2149:3194" ph="/* private void Move(global::Event e) { ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/People/PersonManager.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/People/PersonSandbox.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="52" />
+            <state relative-caret-position="96">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="52" />
               <folding>
-                <marker date="1546225538290" expanded="false" signature="6:52" ph="..." />
-                <marker date="1546225538290" expanded="true" signature="81:1314" ph="{...}" />
-                <marker date="1546225538290" expanded="true" signature="462:575" ph="/* Functions ... */" />
-                <marker date="1546225538290" expanded="true" signature="579:667" ph="/// Build a list of all people, and then set everyone up. ... " />
-                <marker date="1546225538290" expanded="true" signature="688:1140" ph="{...}" />
-                <marker date="1546225538290" expanded="true" signature="1144:1230" ph="/// Tell each person to do whatever they do each frame. ... " />
-                <marker date="1546225538290" expanded="true" signature="1250:1312" ph="{...}" />
+                <marker date="1546307588785" expanded="true" signature="147:629" ph="{...}" />
+                <marker date="1546307588785" expanded="true" signature="488:526" ph="{...}" />
+                <marker date="1546307588785" expanded="true" signature="530:597" ph="/// Defined for each type of person. ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/GameManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <folding>
+                <marker date="1546310441064" expanded="true" signature="61:724" ph="{...}" />
+                <marker date="1546310441064" expanded="true" signature="67:200" ph="/// This is the only Start() or Awake() in the scene. Everything else gets set up through this method. ... " />
+                <marker date="1546310441064" expanded="true" signature="222:451" ph="{...}" />
+                <marker date="1546310441064" expanded="true" signature="456:618" ph="/// Like Start() above, this is the only Update() in the scene. Everything that needs to happen each ... " />
+                <marker date="1546310441064" expanded="true" signature="641:722" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/GroundInputManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding>
+                <marker date="1546310991385" expanded="true" signature="67:1267" ph="{...}" />
+                <marker date="1546310991385" expanded="true" signature="450:563" ph="/* Functions ... */" />
+                <marker date="1546310991385" expanded="true" signature="569:707" ph="/// Create the destination marker and set it up to listen for events it needs to find the mouse's position. ... " />
+                <marker date="1546310991385" expanded="true" signature="737:977" ph="{...}" />
+                <marker date="1546310991385" expanded="true" signature="983:1018" ph="///  ... " />
+                <marker date="1546310991385" expanded="true" signature="1047:1265" ph="{...}" />
+                <marker date="1546310991385" expanded="true" signature="1199:1262" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -76,9 +112,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Tasks/TaskManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/ScreenInputManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/GroundInputManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/People/PersonSandbox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Events/Event.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/MouseGroundEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/DestinationMarkerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Events/CustomEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Tasks/Task.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Events/CustomEventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/People/CharacterControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FX/CameraShakeTask.cs" root0="FORCE_HIGHLIGHTING" />
@@ -94,23 +135,29 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Architecture.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/CustomEventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Events/Event.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Input/InputManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Input/MousePosEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/People/CharacterControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/People/PersonSandbox.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/People/VillainBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/People/PersonManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Tasks/TaskManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Tasks/Task.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Services.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FX/CameraShakeTask.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Events/CustomEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Input/MousePosEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Events/CustomEventManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Input/ScreenInputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/People/CharacterControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/People/PersonSandbox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/People/VillainBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Input/MouseGroundEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Input/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Input/DestinationMarkerBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Architecture/Input/GroundInputManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
+    <option name="x" value="-122" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="730" />
@@ -123,10 +170,10 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,18 +218,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="23" width="1400" height="730" extended-state="0" />
+    <frame x="-122" y="23" width="1400" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -190,10 +231,16 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
     </layout>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
@@ -209,73 +256,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/CustomEventManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/CustomEventManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Events/Event.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding>
-            <marker date="1546219980706" expanded="true" signature="28:72" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/InputManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <marker date="1546220032218" expanded="true" signature="46:246" ph="{...}" />
-            <marker date="1546220032218" expanded="true" signature="51:156" ph="/// Every frame, send out an event with the current position of the mouse. ... " />
-            <marker date="1546220032218" expanded="true" signature="176:244" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/MousePosEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <marker date="1546220054665" expanded="true" signature="55:478" ph="{...}" />
-            <marker date="1546220054665" expanded="true" signature="174:235" ph="/* the mouse's position on screen ... */" />
-            <marker date="1546220054665" expanded="true" signature="444:476" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraBehavior.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraBehavior.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Tasks/Task.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <marker date="1546225740622" expanded="true" signature="18:1699" ph="{...}" />
-            <marker date="1546225740622" expanded="true" signature="688:875" ph="{...}" />
-            <marker date="1546225740622" expanded="true" signature="694:873" ph="{...}" />
-            <marker date="1546225740622" expanded="true" signature="924:1364" ph="{...}" />
-            <marker date="1546225740622" expanded="true" signature="1009:1361" ph="{...}" />
-            <marker date="1546225740622" expanded="true" signature="1659:1697" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -283,97 +277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3696">
           <caret line="231" selection-start-line="231" selection-end-line="231" />
-          <folding>
-            <marker date="1546225726652" expanded="true" signature="0:51" ph="/* Basic task system. ... */" />
-            <marker date="1546225726652" expanded="true" signature="58:104" ph="..." />
-            <marker date="1546225726652" expanded="true" signature="131:7262" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="209:322" ph="/* sequenced tasks ... */" />
-            <marker date="1546225726652" expanded="true" signature="541:657" ph="/// Add a task to the list of tasks to address. ... " />
-            <marker date="1546225726652" expanded="true" signature="689:755" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="759:884" ph="/// Call this to add a new ordered task. ... " />
-            <marker date="1546225726652" expanded="true" signature="923:953" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="957:1350" ph="/// Adds tasks that should be ordered to the linkedlist that will resolve them. ... " />
-            <marker date="1546225726652" expanded="true" signature="1389:1864" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="1442:1861" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="1592:1761" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="1868:1934" ph="/// Work through all current tasks. ... " />
-            <marker date="1546225726652" expanded="true" signature="1954:2695" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="2000:2257" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="2121:2159" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="2209:2248" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="2305:2644" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="2342:2640" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="2488:2532" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="2584:2629" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="2699:2990" ph="/// When a task is done, add the next task (if any) to the list of current tasks and then stop the current task. ... " />
-            <marker date="1546225726652" expanded="true" signature="3047:3203" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="3207:3795" ph="/// Handle the completion of ordered tasks, by doing the following: ... " />
-            <marker date="1546225726652" expanded="true" signature="3844:4171" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="4203:4392" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="4234:4389" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="4275:4359" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="4396:4713" ph="/// Determines whether there is already a task of a given type in the list of current tasks. ... " />
-            <marker date="1546225726652" expanded="true" signature="4756:4846" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="4850:5201" ph="/// Also determines whether the list of current tasks includes a task of a given type, this time by comparing dir ... " />
-            <marker date="1546225726652" expanded="true" signature="5238:5323" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="5327:5867" ph="/// Get the last of a given task. &quot;Last,&quot; here, means a task of that type with nothing to do &quot;Then.&quot; ... " />
-            <marker date="1546225726652" expanded="true" signature="5903:6057" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="5935:6038" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="5972:6034" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="6004:6029" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="6061:6465" ph="/// Get the currently-running task of a given type. ... " />
-            <marker date="1546225726652" expanded="true" signature="6504:6639" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="6536:6620" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="6573:6616" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="6643:6850" ph="/// Insert a task between two other tasks. ... " />
-            <marker date="1546225726652" expanded="true" signature="6906:7012" ph="{...}" />
-            <marker date="1546225726652" expanded="true" signature="7016:7166" ph="/// Are any tasks running at all? ... " />
-            <marker date="1546225726652" expanded="true" signature="7198:7260" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/People/VillainBehavior.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
-          <folding>
-            <marker date="1546223902845" expanded="true" signature="65:1013" ph="{...}" />
-            <marker date="1546223902845" expanded="true" signature="475:560" ph="{...}" />
-            <marker date="1546223902845" expanded="true" signature="566:647" ph="/// Each frame, work to pursue the main character. ... " />
-            <marker date="1546223902845" expanded="true" signature="676:744" ph="{...}" />
-            <marker date="1546223902845" expanded="true" signature="748:903" ph="/// Get a vector toward the main character. ... " />
-            <marker date="1546223902845" expanded="true" signature="940:1011" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/People/CharacterControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="75" column="100" selection-start-line="75" selection-start-column="100" selection-end-line="75" selection-end-column="100" />
-          <folding>
-            <marker date="1546222526603" expanded="true" signature="24:2194" ph="{...}" />
-            <marker date="1546222526603" expanded="true" signature="94:2192" ph="{...}" />
-            <marker date="1546222526603" expanded="true" signature="665:738" ph="{...}" />
-            <marker date="1546222526603" expanded="true" signature="743:848" ph="/// The main character isn't subject to moving around as bystanders are. ... " />
-            <marker date="1546222526603" expanded="true" signature="878:911" ph="{...}" />
-            <marker date="1546222526603" expanded="true" signature="916:1143" ph="/// Move the main character toward the cursor. The character moves faster when the cursor is farther away. ... " />
-            <marker date="1546222526603" expanded="true" signature="1180:2189" ph="{...}" />
-            <marker date="1546222526603" expanded="true" signature="1915:2093" ph="/* perfectly follow the cursor ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/People/PersonSandbox.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <marker date="1546223123069" expanded="true" signature="151:641" ph="{...}" />
-            <marker date="1546223123069" expanded="true" signature="496:538" ph="{...}" />
-            <marker date="1546223123069" expanded="true" signature="542:609" ph="/// Defined for each type of person. ... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -381,37 +284,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Events/CustomEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
           <folding>
-            <marker date="1546225849033" expanded="true" signature="49:978" ph="{...}" />
-            <marker date="1546225849033" expanded="true" signature="136:291" ph="{...}" />
-            <marker date="1546225849033" expanded="true" signature="144:262" ph="{...}" />
-            <marker date="1546225849033" expanded="true" signature="368:524" ph="{...}" />
-            <marker date="1546225849033" expanded="true" signature="376:495" ph="{...}" />
-            <marker date="1546225849033" expanded="true" signature="599:754" ph="{...}" />
-            <marker date="1546225849033" expanded="true" signature="607:725" ph="{...}" />
-            <marker date="1546225849033" expanded="true" signature="825:976" ph="{...}" />
-            <marker date="1546225849033" expanded="true" signature="833:948" ph="{...}" />
+            <marker date="1546278754048" expanded="true" signature="34:84" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/GameManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/MousePosEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
           <folding>
-            <marker date="1546225871777" expanded="true" signature="61:691" ph="{...}" />
-            <marker date="1546225871777" expanded="true" signature="67:200" ph="/// This is the only Start() or Awake() in the scene. Everything else gets set up through this method. ... " />
-            <marker date="1546225871777" expanded="true" signature="222:418" ph="{...}" />
-            <marker date="1546225871777" expanded="true" signature="423:585" ph="/// Like Start() above, this is the only Update() in the scene. Everything that needs to happen each ... " />
-            <marker date="1546225871777" expanded="true" signature="608:689" ph="{...}" />
+            <marker date="1546278778519" expanded="true" signature="61:484" ph="{...}" />
+            <marker date="1546278778519" expanded="true" signature="180:241" ph="/* the mouse's position on screen ... */" />
+            <marker date="1546278778519" expanded="true" signature="450:482" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Events/CustomEventManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <marker date="1546278819492" expanded="false" signature="6:73" ph="..." />
+            <marker date="1546278819492" expanded="true" signature="107:2304" ph="{...}" />
+            <marker date="1546278819492" expanded="true" signature="231:340" ph="{...}" />
+            <marker date="1546278819492" expanded="true" signature="239:337" ph="{...}" />
+            <marker date="1546278819492" expanded="true" signature="265:312" ph="{...}" />
+            <marker date="1546278819492" expanded="true" signature="546:791" ph="/// Objects call this function to subscribe to events of a given type. ... " />
+            <marker date="1546278819492" expanded="true" signature="867:1400" ph="{...}" />
+            <marker date="1546278819492" expanded="true" signature="897:1258" ph="/* If there's already an event of that type, add this handler to the list of handlers for that event. ... */" />
+            <marker date="1546278819492" expanded="true" signature="1302:1347" ph="{...}" />
+            <marker date="1546278819492" expanded="true" signature="1404:1647" ph="/// Objects call this to unsubscribe to events of a given type. ... " />
+            <marker date="1546278819492" expanded="true" signature="1725:1997" ph="{...}" />
+            <marker date="1546278819492" expanded="true" signature="1843:1994" ph="{...}" />
+            <marker date="1546278819492" expanded="true" signature="1894:1937" ph="{...}" />
+            <marker date="1546278819492" expanded="true" signature="2001:2125" ph="/// Objects call this to publish an event. ... " />
+            <marker date="1546278819492" expanded="true" signature="2158:2302" ph="{...}" />
+            <marker date="1546278819492" expanded="true" signature="2278:2299" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/People/PersonManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="52" />
+        <state relative-caret-position="416">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
             <marker date="1546225538290" expanded="false" signature="6:52" ph="..." />
             <marker date="1546225538290" expanded="true" signature="81:1314" ph="{...}" />
@@ -426,11 +352,136 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FX/CameraShakeTask.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
           <folding>
             <marker date="1546226026147" expanded="true" signature="56:438" ph="{...}" />
             <marker date="1546226026147" expanded="true" signature="398:436" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/ScreenInputManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <marker date="1546279481271" expanded="true" signature="67:168" ph="{...}" />
+            <marker date="1546279481271" expanded="true" signature="98:166" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/MouseGroundEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <marker date="1546309985912" expanded="true" signature="63:586" ph="{...}" />
+            <marker date="1546309985912" expanded="true" signature="278:391" ph="/* Functions ... */" />
+            <marker date="1546309985912" expanded="true" signature="397:523" ph="/// Constructor. ... " />
+            <marker date="1546309985912" expanded="true" signature="561:584" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/People/VillainBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+          <folding>
+            <marker date="1546307603761" expanded="true" signature="65:1009" ph="{...}" />
+            <marker date="1546307603761" expanded="true" signature="475:560" ph="{...}" />
+            <marker date="1546307603761" expanded="true" signature="566:647" ph="/// Each frame, work to pursue the main character. ... " />
+            <marker date="1546307603761" expanded="true" signature="676:740" ph="{...}" />
+            <marker date="1546307603761" expanded="true" signature="744:899" ph="/// Get a vector toward the main character. ... " />
+            <marker date="1546307603761" expanded="true" signature="936:1007" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/People/CharacterControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+          <folding>
+            <marker date="1546307569074" expanded="true" signature="24:3199" ph="{...}" />
+            <marker date="1546307569074" expanded="true" signature="94:3197" ph="{...}" />
+            <marker date="1546307569074" expanded="true" signature="897:1107" ph="{...}" />
+            <marker date="1546307569074" expanded="true" signature="1112:1217" ph="/// The main character isn't subject to moving around as bystanders are. ... " />
+            <marker date="1546307569074" expanded="true" signature="1247:1280" ph="{...}" />
+            <marker date="1546307569074" expanded="true" signature="1316:1914" ph="{...}" />
+            <marker date="1546307569074" expanded="true" signature="1919:2146" ph="/* Move the main character toward the cursor. The character moves faster when the cursor is farther away. ... */" />
+            <marker date="1546307569074" expanded="true" signature="2149:3194" ph="/* private void Move(global::Event e) { ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/People/PersonSandbox.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <marker date="1546307588785" expanded="true" signature="147:629" ph="{...}" />
+            <marker date="1546307588785" expanded="true" signature="488:526" ph="{...}" />
+            <marker date="1546307588785" expanded="true" signature="530:597" ph="/// Defined for each type of person. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/InputManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <folding>
+            <marker date="1546310270328" expanded="true" signature="55:281" ph="{...}" />
+            <marker date="1546310270328" expanded="true" signature="87:146" ph="{...}" />
+            <marker date="1546310270328" expanded="true" signature="152:249" ph="/// Each type of InputManager sends out a different kind of event. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <marker date="1546310441064" expanded="true" signature="61:724" ph="{...}" />
+            <marker date="1546310441064" expanded="true" signature="67:200" ph="/// This is the only Start() or Awake() in the scene. Everything else gets set up through this method. ... " />
+            <marker date="1546310441064" expanded="true" signature="222:451" ph="{...}" />
+            <marker date="1546310441064" expanded="true" signature="456:618" ph="/// Like Start() above, this is the only Update() in the scene. Everything that needs to happen each ... " />
+            <marker date="1546310441064" expanded="true" signature="641:722" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/DestinationMarkerBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <marker date="1546310806490" expanded="true" signature="112:1147" ph="{...}" />
+            <marker date="1546310806490" expanded="true" signature="369:482" ph="/* Functions ... */" />
+            <marker date="1546310806490" expanded="true" signature="488:544" ph="/// Initialize variables. ... " />
+            <marker date="1546310806490" expanded="true" signature="565:687" ph="{...}" />
+            <marker date="1546310806490" expanded="true" signature="691:859" ph="/// Move the marker so that it highlights the place where the mouse points to the ground. ... " />
+            <marker date="1546310806490" expanded="true" signature="893:1145" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Architecture/Input/GroundInputManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <marker date="1546310991385" expanded="true" signature="67:1267" ph="{...}" />
+            <marker date="1546310991385" expanded="true" signature="450:563" ph="/* Functions ... */" />
+            <marker date="1546310991385" expanded="true" signature="569:707" ph="/// Create the destination marker and set it up to listen for events it needs to find the mouse's position. ... " />
+            <marker date="1546310991385" expanded="true" signature="737:977" ph="{...}" />
+            <marker date="1546310991385" expanded="true" signature="983:1018" ph="///  ... " />
+            <marker date="1546310991385" expanded="true" signature="1047:1265" ph="{...}" />
+            <marker date="1546310991385" expanded="true" signature="1199:1262" ph="{...}" />
           </folding>
         </state>
       </provider>

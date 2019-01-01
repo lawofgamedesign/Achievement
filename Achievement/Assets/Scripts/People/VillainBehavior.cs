@@ -29,7 +29,7 @@ public class VillainBehavior : PersonSandbox {
 	/// Each frame, work to pursue the main character.
 	/// </summary>
 	public override void Tick(){
-		rb2D.AddForce(FindMainCharacter() * 1.0f, ForceMode2D.Force);
+		rb.AddForce(FindMainCharacter() * 1.0f, ForceMode.Force);
 	}
 
 

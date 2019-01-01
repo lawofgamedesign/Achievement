@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Collider))]
 public abstract class PersonSandbox : MonoBehaviour {
 
 	////////////////////////////////////////////////
@@ -10,7 +10,7 @@ public abstract class PersonSandbox : MonoBehaviour {
 
 
 	//the person's rigidbody
-	protected Rigidbody2D rb2D;
+	protected Rigidbody rb;
 	
 	
 	////////////////////////////////////////////////
@@ -20,7 +20,7 @@ public abstract class PersonSandbox : MonoBehaviour {
 
 	//initialize variables
 	public virtual void Setup(){
-		rb2D = GetComponent<Rigidbody2D>();
+		rb = GetComponent<Rigidbody>();
 	}
 
 
